@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Monsterrat';
+    src: url(/week_4/assets/fonts/Montserrat-VariableFont_wght.ttf) format('woff');
+}
+
+#wrapper {
+    width: 80vw;
+    margin: auto;
+}
+
+#menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 15px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#delivery {
+    margin-top: 1vw;
+    padding-right: 10vw;
+}
+
+#btn {
+    padding-left: 10vw;
+}
+
+.food {
+    padding-right: 2.5vw;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0E0C0D;
+}
+
+nav a img:first-of-type {
+    width: 160px;
+    height: 42px;
+}
+
+#logo_big {
+    width: 100%;
+}
+
+#delivery,
+#city,
+#number,
+#time,
+.food,
+#enter {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#delivery,
+#city {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+#time {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+#number {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#enter {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #696F7A;
+}
+
+.del {
+    line-height: 0px;
+}
+
+a:hover,
+#city,
+#number {
+    color: #FF2E65;
+}
+
+a:active {
+    color: #a51f42;
+}
+
+a {
+    text-decoration: none;
+}
